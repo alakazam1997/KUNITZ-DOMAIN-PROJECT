@@ -1,0 +1,50 @@
+output dir: mTM_result
+
+ ***************************************************************
+ *                 mTM-align (Version 20180725)                *
+ * An algorithm for multiple protein structure alignment (MSTA)*
+ * Reference: Dong, et al, Bioinformatics, 34: 1719-1725 (2018)*
+ * Please email your comments to: yangjy@nankai.edu.cn         *
+ ***************************************************************
+
+
+------------- Summary of your input -------------
+Input 17 structures: 1AALA.pdb, 1AAPA.pdb, 1G6XA.pdb, 1KNTA.pdb, 1TFXC.pdb, 1YC0I.pdb, 1YLCB.pdb, 1ZR0B.pdb, 2ZJXA.pdb, 3L33E.pdb, 3TGII.pdb, 3WNYA.pdb, 4DTGK.pdb, 4ISOB.pdb, 4U30X.pdb, 4Y10I.pdb, 5JB6A.pdb
+Average length: 57.4118
+
+
+------------- Summary of the MSTA  -------------
+Lcore: 46
+ccRMSD: 0.69263
+ccTM-score: 0.776571
+Lali: 54.3971
+RMSD: 0.789455
+TM-score: 0.905698
+
+
+------------- MSTA  -------------
+1AALA.pdb	----------RPDF-C-LEPPYTGPCKARIIRYFYNAKAGLVQTFVYGGCRAKRNNFKSAEDAMRTCGG--A--
+1AAPA.pdb	----------VREV-C-SEQAETGPCRAMISRWYFDVTEGKCAPFFYGGCGGNRNNFDTEEYCMAVCG------
+1G6XA.pdb	----------RPDF-C-LEPPYAGACRARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCLRTCGG--A--
+1KNTA.pdb	-----------TDI-C-KLPKDEGTCRDFILKWYYDPNTKSCARFWYGGCGGNENKFGSQKECEKVCA------
+1TFXC.pdb	----------KPDF-C-FLEEDPGICRGYITRYFYNNQTKQCERFKYGGCLGNMNNFETLEECKNICEDG----
+1YC0I.pdb	QH-QHQMHQ--TEDYC-LASNKVGRCRGSFPRWYYDPTEQICKSFVYGGCLGNKNNYLREEECILACRGV----
+1YLCB.pdb	----------RPDF---LEPPYTGPCKARIIRYFYNAKAGL-QTFVYGGCRAKRNNFKSAED-MRT-G------
+1ZR0B.pdb	---PTG--N-NAEI-C-LLPLDYGPCRALLLRYYYDRYTQSCRQFLYGGCEGNANNFYTWEACDDACWR--I-E
+2ZJXA.pdb	----------RPDF-C-LEPPYTGPGKARIIRYFYNAKAGLAQTFVYGGARAKRNNFKSAEDALRTCGG---A-
+3L33E.pdb	-------------V-C-SEQAETGPCRAMISRWYFDVTEGKCAPFFYGGCGGNRNNFDTEEYCMAVC-------
+3TGII.pdb	----------RPDF-C-LEPPYTGPCKARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCG------
+3WNYA.pdb	----------RPAF-C-LEPPYAGPGKARIIRYFYNAKAGAAQAFVYGGVRAKRNNFASAADALAACA------
+4DTGK.pdb	---------EKPDF-C-FLEEDPGICRGYITRYFYNNQTKQCERFKYGGCLGNMNNFETLEECKNICED--G-H
+4ISOB.pdb	--------Q--TEDYC-LASNKVGRCRGSFPRWYYDPTEQICKSFVYGGCLGNKNNYLREEECILACRGVQ---
+4U30X.pdb	-----------A---CANLPIVRGPCRAFIQLWAFDAVKGKCVLFPYGGCQGNGNKFYSEKECREYCG------
+4Y10I.pdb	--P---------DF-C-LEPPYTGPC-ARIIRYFYNAKAGLCQTFVYGGCRAKRNNFKSAEDCMRTCGGA----
+5JB6A.pdb	----------RPAF-C-LEAPYAGPGAAAIIRYFYNAAAGAAQAFVYGGVAAKRNNFASAADALAACAA---A-
+
+The alignment in fasta format: result.fasta
+The superimposed structures in PDB format:  result.pdb
+The superimposed structures in common core region in PDB format:  cc.pdb
+The pairwise TM-score:  pairwise_TMscore.txt
+The pairwise RMSD:  pairwise_rmsd.txt
+The distance matrix: infile
+The pairwise superimposed structures: *_pair.pdb
