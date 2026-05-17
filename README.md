@@ -261,19 +261,6 @@ This model demonstrates several advantages over Pfam PF00014:
 - **Sequence Divergence:** Highly diverged orthologs (e.g., some tick anticoagulants) may score below threshold
 - **Taxonomic Coverage:** Training data biased toward well-characterized organisms; novel Kunitz variants may not be detected
 
-## Citation
-
-If you use this model in your research, please cite:
-
-```bibtex
-@article{kunitz_hmm_2026,
-  title={Computational Modelling and Validation of the Kunitz-type Protease 
-         Inhibitor Domain Using Profile Hidden Markov Models},
-  author={Department of Pharmacy and Biotechnology, Università di Bologna},
-  year={2026},
-  note={Profile HMM Model. Available upon request}
-}
-```
 
 ## Contact & Support
 
@@ -299,8 +286,5 @@ This project is provided as-is for research and educational purposes. The kunitz
 
 5. Hidden Markov Models: Theory, Algorithms, and Applications in Bioinformatics. *EurekAlert!* (2025).
 
----
 
-**Last Updated:** May 2026  
-**Model Version:** 1.0  
-**Status:** Validated and Ready for Use
+
